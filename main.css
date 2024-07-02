@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    padding: 16px 0;
+    background-color: #4169E1;
+    color: white;
+    font-family: 'Archivo Black';
+    text-transform: uppercase;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: medium;
+    background-color: white;
+}
+
+h1, h2, h4 {
+    font-weight: normal;
+}
+
+header h1 {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 32px;
+}
+
+header nav li,
+footer nav li {
+    display: inline;
+}
+
+header nav li a,
+footer nav li a {
+    color: white;
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+header nav li a {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+header .container,
+#about,
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#about  h2 {
+    margin-left: 44px;
+    margin-bottom: 24px;
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#about p {
+    margin-left: 44px;
+    width: 600px;
+}
+
+#about > img {
+    width: 600px;
+    border-radius: 400px;
+    padding: 50px;
+    filter: drop-shadow(0 0 10px #4169E1);
+}
+
+#contact {
+    margin-bottom: 44px;
+}
+
+#contact  h2 {
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+form input,
+form textarea,
+button {
+    display: block;
+    width: 80%;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 2px;
+    filter: drop-shadow(0 0 04px #4169E1);
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+button {
+    border: none;
+    background-color: #4169E1;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+}
+
+button:hover {
+    background-color: #4775ff
+}
+
+footer img {
+    height: 26px;
+    color: white;
+}
+
